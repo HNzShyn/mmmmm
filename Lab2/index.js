@@ -17,3 +17,5 @@ const web = http.createServer((req, res) =>{
 
 //5. Chạy server trên port (listen port)
 web.listen(port);
+//console.log("Server is listening port " + port);
+console.log("Server is running at address: http://" + host + ":" + port);
